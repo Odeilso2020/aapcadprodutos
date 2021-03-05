@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    tools:context=".Produtos">
+    <EditText
+        android:id="@+id/nomeProduto"
+        android:layout_width="match_parent"
+        android:hint="Inserir produto"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/descricaoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Descrição do produto" />
+    <EditText
+        android:id="@+id/quantidadeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Quantidade do produto"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/btnModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modificar" />
+</LinearLayout>
